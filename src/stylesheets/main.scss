@@ -1,2 +1,103 @@
-// Your styles go here
 
+
+@import "~bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+
+body {
+  background-color: #BAE0E5 !important;
+}
+#content-dark {
+  align-content: center;
+  width: 100%;
+  background-color: #20414B;
+  color: white;
+  padding-bottom: 10%;
+}
+h1 {
+  font-size: 75px !important;
+  padding: 5% !important;
+}
+h2 {
+  font-size: 40px !important;
+}
+
+#smallText {
+  font-size: 20px !important;
+}
+
+p {
+  font-size: 30px !important;
+}
+
+
+
+#content-light {
+  width: 100%;
+  color: #20414b;
+  padding-bottom: 10%;
+}
+
+#boxed-light {
+  background-color: #6C7D73;
+  width: 60%;
+  padding: 5%;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 20px black;
+}
+
+#boxed-dark {
+  background-color: #30C095;
+  width: 60%;
+  padding: 5%;
+  border-radius: 20px;
+  color: #20414b;
+  box-shadow: 3px 3px 20px black;
+}
+
+#aboutBox {
+  background-color: #30C095;
+  width: 60%;
+  border-radius: 20px;
+  color: #20414b;
+  box-shadow: 3px 3px 20px black;
+  padding: 3% !important;
+}
+
+#aboutText {
+  text-align: left;
+}
+
+#icon {
+  height: 70px !important;
+  width: auto !important;
+  margin: 30px 30px 0px;
+}
+
+#portrait {
+  height: 500px !important;
+  width: auto !important;
+}
+
+#intro {
+  margin-top: 80px;
+  text-align: left;
+}
+
+#buffer {
+  height: 100px;
+}
+
+.color-nav {
+  background-color: #20414b;
+  color: #BAE0E5 !important;
+  box-shadow: 3px 3px 20px black;
+}
+
+.btn-primary {
+  background-color: #20414b !important;
+  color: #BAE0E5 !important;
+}

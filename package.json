@@ -29,7 +29,12 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
+    "bootstrap": "^5.0.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.4"
   }
 }
