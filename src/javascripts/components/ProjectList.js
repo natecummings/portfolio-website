@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useState }from 'react'
 import Project from './Project'
+import { Projects } from './Projects'
 
 export default function ProjectList() {
+  const [projects, setProjects] = useState(Projects)
   return(
-    <div>
-      <center>
-        <h1>Portfolio</h1>
-       <Project/>
-      </center>
-      <div id="buffer"></div>
+    <div id="portfolio">
+      <div id="content-light">
+        <center>
+          <h1>Portfolio</h1>
+          {projects.map(p => {
+            return (
+              <>
+                <Project key={p.id} project={p}/>
+                <div id="buffer"></div>
+              </>
+            )
+          })}
+        </center>
+      </div>
     </div>
     
   );

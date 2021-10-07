@@ -95,9 +95,22 @@ p {
   background-color: #20414b;
   color: #BAE0E5 !important;
   box-shadow: 3px 3px 20px black;
+  font-size: 25px !important;
 }
 
 .btn-primary {
   background-color: #20414b !important;
   color: #BAE0E5 !important;
+}
+
+.portfolioImages {
+  width: 95% !important;
+  height: auto !important;
+}
+
+.portfolioContent {
+  text-align: left;
+  a:link, a:visited {
+    color: #BAE0E5;
+  }
 }

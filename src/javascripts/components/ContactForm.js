@@ -7,7 +7,7 @@ import { Form, Button } from 'react-bootstrap';
 function ContactForm() {
   const [state, handleSubmit] = useForm("xdoyypnk");
   if (state.succeeded) {
-      return <p>Thanks for reaching out!</p>;
+      return <p>Thanks for reaching out! I'll get in touch as soon as I can.</p>;
   }
   return (
       <Form onSubmit={handleSubmit}>
@@ -24,11 +24,11 @@ function ContactForm() {
       <ValidationError prefix="Email" field="email"errors={state.errors}/>
 
       <Form.Group>
-        <Form.Label>Email:</Form.Label>
+        <Form.Label>Message:</Form.Label>
         <Form.Control as="textarea" rows={4} name="message" id="message"/>
       </Form.Group>
       <ValidationError prefix="Message" field="message" errors={state.errors}/>
-      
+      <br/>
       <Form.Group>
         <Button type="submit" disabled={state.submitting}>Send</Button>
       </Form.Group>
