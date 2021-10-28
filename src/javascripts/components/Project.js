@@ -12,7 +12,7 @@ export default function Project(props) {
           </Col>
           <Col>
             <h2>{p.title}</h2>
-            <a href={p.link} target="_blank">{p.link}</a>
+            <a className="portfolioLink" href={p.link} target="_blank">{p.link}</a>
             <br/><br/>
             <h5>Main Technologies Used:</h5>
             {p.technologies.map(d => (<li key={d.id}>{d}</li>))}
