@@ -1,21 +1,21 @@
 import React from 'react'
-import { Row, ListGroup, ListGroupItem, Container, Col } from 'react-bootstrap'
+import { Row, Container, Col } from 'react-bootstrap'
 
 export default function About() {
   return(
     <div id="about">
-      <div id="content-dark">
+      <div className="content-dark">
         <center>
           <h1>About Me</h1>
-          <div id="aboutBox">
+          <div className="aboutBox">
             <Container id="aboutText">
               <Row>
                 <Col>
-                  <img id="cello-mountains" src="../../images/Cello-Mountains.png" width="500px"></img>
+                  <img id="cello-mountains" alt="Nate playing cello" src="../../images/Cello-Mountains.png" width="500px"></img>
                 </Col>
                 <Col>
-                  <p id="smallText">Hi, I’m Nate. I was born and raised in Ogden and I recently graduated from Weber State University with a BS in Computer Science.</p>
-                  <p id="smallText">Some technologies I’m most familiar with include:
+                  <p className="smallText">Hi, I’m Nate. I was born and raised in Ogden and I recently graduated from Weber State University with a BS in Computer Science.</p>
+                  <p className="smallText">Some technologies I’m most familiar with include:
                     <ul>
                       <li>Javascript</li>
                       <li>React</li>

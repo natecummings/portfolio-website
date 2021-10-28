@@ -12,10 +12,10 @@ export default function Contact() {
   return(
     <>
     <div id="contact">
-      <div id="content-light">
+      <div className="content-light">
         <center>
         <h1>Contact</h1>
-        <div id="boxed-light">
+        <div className="boxed-light">
           <p>I’m always looking for new opportunities and challenges, so feel free to reach out to me by clicking the button below.</p>
           <Button variant="primary" onClick={handleShow}>Say Hi!</Button>
           <p>You can also see find more of me at my Github and LinkedIn below.</p>

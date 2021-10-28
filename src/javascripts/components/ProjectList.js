@@ -6,7 +6,7 @@ export default function ProjectList() {
   const [projects, setProjects] = useState(Projects)
   return(
     <div id="portfolio">
-      <div id="content-light">
+      <div className="content-light">
         <center>
           <h1>Portfolio</h1>
           {projects.map(p => {

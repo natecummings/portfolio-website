@@ -6,13 +6,13 @@ export default function Intro() {
     <div id="home">
       <div id="buffer"></div>
       <div id="buffer"></div>
-      <div id="content-light">
+      <div className="content-light">
         <center>
-        <div id="boxed-light">
+        <div className="boxed-light">
           <Container>
             <Row>
               <Col>
-                <img id="portrait" src="../../images/Portrait.png" ></img>
+                <img id="portrait" src="../../images/Portrait.png" alt="Portrait photo of Nate"></img>
               </Col>
               <Col id="intro">
                 <h2>Hello World!</h2>
